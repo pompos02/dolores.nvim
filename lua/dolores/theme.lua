@@ -368,6 +368,7 @@ local function set_highlights()
         ["@keyword.conditional.make"] = { link = "makePreCondit" },
         ["@keyword.import.make"] = { link = "makeInclude" },
         ["@keyword.make"] = { link = "makeStatement" },
+        ["@keyword.doxygen"] = { fg = palette.c10 },
 
         ["@punctuation"] = { fg = palette.text },
         ["@punctuation.delimiter"] = { link = "@punctuation" },
