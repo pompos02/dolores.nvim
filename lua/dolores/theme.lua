@@ -79,7 +79,7 @@ local function set_highlights()
         Cursor = { fg = palette.text },
         CursorColumn = { bg = palette.c3 },
         CursorLine = { bg = palette.c3 },
-        CursorLineNr = { fg = palette.text, bg = palette.bg, bold = styles.bold },
+        CursorLineNr = { fg = palette.c7, bg = palette.bg, bold = styles.bold },
         DiffAdd = { bg = groups.git_add, blend = 20 },
         DiffChange = { bg = groups.git_change, blend = 20 },
         DiffDelete = { bg = groups.git_delete, blend = 20 },
@@ -149,6 +149,7 @@ local function set_highlights()
         WinBar = { fg = palette.c6, bg = palette.bg },
         WinBarNC = { fg = palette.c5, bg = palette.bg, blend = 60 },
         WinSeparator = { fg = groups.border },
+        Whitespace = { fg = palette.c3 },
 
         DiagnosticError = { fg = groups.error },
         DiagnosticHint = { fg = groups.hint },

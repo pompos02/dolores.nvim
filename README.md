@@ -25,5 +25,6 @@ Available schemes:
 - `dolores-stratos`: Monokai palette
 - `dolores-mitropanos`: Dolores-inspired palette, switches with `vim.o.background`
 - `dolores-thes`: high-contrast palette, switches with `vim.o.background`
+- `dolores-df`: grayscale light palette
 - `dolores-sotiria-bellou`: Gruvbox palette, switches with `vim.o.background`
 - `dolores-glykeria`: Gruvbox palette, switches with `vim.o.background`
