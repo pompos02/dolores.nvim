@@ -76,7 +76,7 @@ local function set_highlights()
         ColorColumn = { bg = palette.c3 },
         Conceal = { bg = "NONE" },
         CurSearch = { fg = palette.bg, bg = palette.c15, bold = styles.bold, blend = 80 },
-        Cursor = { fg = palette.text },
+        Cursor = { fg = "NONE" },
         CursorColumn = { bg = palette.c3 },
         CursorLine = { bg = palette.c3 },
         CursorLineNr = { fg = palette.c7, bg = palette.bg, bold = styles.bold },
@@ -149,7 +149,7 @@ local function set_highlights()
         WinBar = { fg = palette.c6, bg = palette.bg },
         WinBarNC = { fg = palette.c5, bg = palette.bg, blend = 60 },
         WinSeparator = { fg = groups.border },
-        Whitespace = { fg = palette.c3 },
+        Whitespace = { fg = palette.c4 },
 
         DiagnosticError = { fg = groups.error },
         DiagnosticHint = { fg = groups.hint },
