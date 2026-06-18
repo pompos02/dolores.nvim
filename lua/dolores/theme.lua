@@ -68,9 +68,9 @@ local function set_highlights()
         ["@text.warning"] = { fg = groups.warn },
         ["@todo"] = { link = "Todo" },
 
-        IndentBlanklineChar = { fg = palette.c5, nocombine = true },
-        IndentBlanklineSpaceChar = { fg = palette.c5, nocombine = true },
-        IndentBlanklineSpaceCharBlankline = { fg = palette.c5, nocombine = true },
+        IndentBlanklineChar = { fg = palette.c5 },
+        -- IndentBlanklineSpaceChar = { fg = palette.c5, nocombine = true },
+        -- IndentBlanklineSpaceCharBlankline = { fg = palette.c5, nocombine = true },
     }
     local default_highlights = {
         ColorColumn = { bg = palette.c3 },
