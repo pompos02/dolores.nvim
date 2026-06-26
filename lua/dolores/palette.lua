@@ -116,6 +116,28 @@ local palette = {
 			c17 = "#0d2622", -- selected completion, picker, buffer, and tab backgrounds
 			c18 = "#3b655d", -- cursor-like surfaces and subdued rendered comments
 		},
+		light = {
+			bg = "#a3b6ae", -- Normal, floats, signs, TabLineFill background
+			c1 = "#93aaa0", -- dim inactive-window background
+			c2 = "#839e92", -- inactive terminal statusline and label foreground contrast
+			c3 = "#739184", -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
+			c4 = "#638477", -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
+			c5 = "#52766a", -- line numbers, borders, fold column, separators, inlay hints
+			c6 = "#3f6056", -- secondary UI text, inactive statusline/tabline, popup menu text
+			text = "#102c27", -- Normal text, identifiers, punctuation, active statusline/tabline text
+			c7 = "#071c18", -- keywords, conditionals, repeats, strong prompts
+			c8 = "#4f3700", -- warning/yellow diagnostics and terminal yellow
+			c9 = "#144d10", -- comments and folded text
+			c10 = "#084a34", -- strings, quickfix filenames, success/green diagnostics
+			c11 = "#7b1820", -- errors, exceptions, SpellBad, search labels
+			c12 = "#183f63", -- functions, methods, fields, visual selection, match highlights
+			c13 = "#174f20", -- types, imports, quickfix line/column numbers
+			c14 = "#064a46", -- constants, booleans, numbers, labels, titles, directories
+			c15 = "#681a75", -- CurSearch background
+			c16 = "#2b4249", -- special comments, messages, links, cyan/teal accents
+			c17 = "#b8c8c1", -- selected completion, picker, buffer, and tab backgrounds
+			c18 = "#80998f", -- cursor-like surfaces and subdued rendered comments
+		},
 	},
 	thalasses = {
 		dark = {

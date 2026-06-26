@@ -365,7 +365,7 @@ local function set_highlights()
         ["@keyword.include"] = { fg = palette.text },
         ["@keyword.import"] = { fg = palette.c13 },
         ["@keyword.modifier"] = { link = "Keyword" },
-        -- ["@keyword.exception"] = { fg = palette.c11 },
+        ["@keyword.exception"] = { fg = palette.c11 },
         ["@keyword.conditional.make"] = { link = "makePreCondit" },
         ["@keyword.import.make"] = { link = "makeInclude" },
         ["@keyword.make"] = { link = "makeStatement" },

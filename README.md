@@ -21,7 +21,7 @@ Available schemes:
 
 - `dolores`: default palette, switches with `vim.o.background`
 - `dolores-kyriazis`: Tomorrow palette, switches with `vim.o.background`
-- `dolores-kif`: green palette
+- `dolores-kif`: green palette, switches with `vim.o.background`
 - `dolores-thalasses`: One Dark palette, switches with `vim.o.background`
 - `dolores-stratos`: Monokai palette
 - `dolores-mitropanos`: Dolores-inspired palette, switches with `vim.o.background`
