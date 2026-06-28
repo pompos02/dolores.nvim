@@ -21,7 +21,7 @@ local palette = {
             c14 = "#9e95c7",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#b04ac0",  -- CurSearch background
             c16 = "#8a8a8a",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#1c1e1f",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#181818",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#34383a",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -43,7 +43,7 @@ local palette = {
             c14 = "#a018ff", -- constants, booleans, numbers, labels, titles, directories
             c15 = "#d100bf", -- CurSearch background
             c16 = "#d100bf", -- special comments, messages, links, cyan/teal accents
-            c17 = "#e8e8e8", -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#f5f5f5", -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#c8c8c8", -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -67,7 +67,7 @@ local palette = {
             c14 = "#b294bb",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#de935f",  -- CurSearch background
             c16 = "#8abeb7",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#373b41",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#1d1f21",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#4d5057",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -89,7 +89,7 @@ local palette = {
             c14 = "#8959a8",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#f5871f",  -- CurSearch background
             c16 = "#3e999f",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#efefef",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#ffffff",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#efefef",  -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -113,7 +113,7 @@ local palette = {
             c14 = "#7ad0c6",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#952aa3",  -- CurSearch background
             c16 = "#748a92",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#0d2622",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#112e2a",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#3b655d",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -135,7 +135,7 @@ local palette = {
             c14 = "#064a46",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#681a75",  -- CurSearch background
             c16 = "#2b4249",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#b8c8c1",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#a3b6ae",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#80998f",  -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -159,7 +159,7 @@ local palette = {
             c14 = "#c678dd",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#d19a66",  -- CurSearch background
             c16 = "#56b6c2",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#2f343f",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#282c34",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#4b5263",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -181,7 +181,7 @@ local palette = {
             c14 = "#a626a4",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#d18f52",  -- CurSearch background
             c16 = "#0184bc",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#e5e7eb",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#fafafa",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#c9cdd4",  -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -205,7 +205,7 @@ local palette = {
             c14 = "#ae81ff",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#fd971f",  -- CurSearch background
             c16 = "#a1efe4",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#3e3d32",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#272822",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#49483e",  -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -229,7 +229,7 @@ local palette = {
             c14 = "#9e95c7",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#B17F3D",  -- CurSearch background
             c16 = "#565f73",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#282828",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#181818",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#52494e",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -251,7 +251,7 @@ local palette = {
             c14 = "#a022c5",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#9a6b2f",  -- CurSearch background
             c16 = "#6c748a",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#e4e4e4",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#ffffff",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#52494e",  -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -275,7 +275,7 @@ local palette = {
             c14 = "#ff5ea0",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#5ef1ff",  -- CurSearch background
             c16 = "#ff5ef1",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#3c4048",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#16181a",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#3c4048",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -321,7 +321,7 @@ local palette = {
             c14 = "#d3869b",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#e78a4e",  -- CurSearch background
             c16 = "#7daea3",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#3c3836",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#282828",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#5a524c",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -343,7 +343,7 @@ local palette = {
             c14 = "#945e80",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#c35e0a",  -- CurSearch background
             c16 = "#45707a",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#f2e5bc",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#fbf1c7",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#ddccab",  -- cursor-like surfaces and subdued rendered comments
         },
     },
@@ -367,7 +367,7 @@ local palette = {
             c14 = "#d3869b",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#fe8019",  -- CurSearch background
             c16 = "#8ec07c",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#3c3836",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#282828",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#504945",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
@@ -389,7 +389,7 @@ local palette = {
             c14 = "#b16286",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#d65d0e",  -- CurSearch background
             c16 = "#689d6a",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#ebdbb2",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#fbf1c7",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#bdae93",  -- cursor-like surfaces and subdued rendered comments
         },
     },
