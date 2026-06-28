@@ -295,9 +295,9 @@ local palette = {
             c12 = "#b21c55",  -- functions, methods, fields, visual selection, match highlights
             c13 = "#0057d1",  -- types, imports, quickfix line/column numbers
             c14 = "#a018ff",  -- constants, booleans, numbers, labels, titles, directories
-            c15 = "#d17c00",  -- CurSearch background
+            c15 = "#d100bf",  -- CurSearch background
             c16 = "#d100bf",  -- special comments, messages, links, cyan/teal accents
-            c17 = "#eaeaea",  -- selected completion, picker, buffer, and tab backgrounds
+            c17 = "#f5f5f5",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#acacac",  -- cursor-like surfaces and subdued rendered comments
         },
     },
