@@ -25,26 +25,26 @@ local palette = {
             c18 = "#34383a",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
-            bg = "#f5f5f5", -- Normal, floats, signs, TabLineFill background
-            c1 = "#f5f5f5", -- dim inactive-window background
-            c2 = "#e8e8e8", -- inactive terminal statusline and label foreground contrast
-            c3 = "#e8e8e8", -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
-            c4 = "#d4d4d4", -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
-            c5 = "#777777", -- line numbers, borders, fold column, separators, inlay hints
-            c6 = "#666666", -- secondary UI text, inactive statusline/tabline, popup menu text
+            bg = "#f5f5f5",   -- Normal, floats, signs, TabLineFill background
+            c1 = "#f5f5f5",   -- dim inactive-window background
+            c2 = "#e8e8e8",   -- inactive terminal statusline and label foreground contrast
+            c3 = "#e8e8e8",   -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
+            c4 = "#d4d4d4",   -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
+            c5 = "#777777",   -- line numbers, borders, fold column, separators, inlay hints
+            c6 = "#666666",   -- secondary UI text, inactive statusline/tabline, popup menu text
             text = "#16181a", -- Normal text, identifiers, punctuation, active statusline/tabline text
-            c7 = "#d56f4f", -- keywords, conditionals, repeats, strong prompts
-            c8 = "#997b00", -- warning/yellow diagnostics and terminal yellow
-            c9 = "#888888", -- comments and folded text
-            c10 = "#008b0c", -- strings, quickfix filenames, success/green diagnostics
-            c11 = "#d11500", -- errors, exceptions, SpellBad, search labels
-            c12 = "#b21c55", -- functions, methods, fields, visual selection, match highlights
-            c13 = "#008c99", -- types, imports, quickfix line/column numbers
-            c14 = "#a018ff", -- constants, booleans, numbers, labels, titles, directories
-            c15 = "#d100bf", -- CurSearch background
-            c16 = "#d100bf", -- special comments, messages, links, cyan/teal accents
-            c17 = "#f5f5f5", -- selected completion, picker, buffer, and tab backgrounds
-            c18 = "#c8c8c8", -- cursor-like surfaces and subdued rendered comments
+            c7 = "#d56f4f",   -- keywords, conditionals, repeats, strong prompts
+            c8 = "#997b00",   -- warning/yellow diagnostics and terminal yellow
+            c9 = "#888888",   -- comments and folded text
+            c10 = "#008b0c",  -- strings, quickfix filenames, success/green diagnostics
+            c11 = "#d11500",  -- errors, exceptions, SpellBad, search labels
+            c12 = "#b21c55",  -- functions, methods, fields, visual selection, match highlights
+            c13 = "#008c99",  -- types, imports, quickfix line/column numbers
+            c14 = "#a018ff",  -- constants, booleans, numbers, labels, titles, directories
+            c15 = "#d100bf",  -- CurSearch background
+            c16 = "#d100bf",  -- special comments, messages, links, cyan/teal accents
+            c17 = "#f5f5f5",  -- selected completion, picker, buffer, and tab backgrounds
+            c18 = "#c8c8c8",  -- cursor-like surfaces and subdued rendered comments
         },
     },
     kyriazis = {
@@ -257,11 +257,11 @@ local palette = {
             c18 = "#3c4048",  -- cursor-like surfaces and subdued rendered comments
         },
         light = {
-            bg = "#f5f5f5", -- Normal, floats, signs, TabLineFill background
-            c1 = "#f5f5f5", -- dim inactive-window background
-            c2 = "#e8e8e8", -- inactive terminal statusline and label foreground contrast
-            c3 = "#e8e8e8", -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
-            c4 = "#cbcbcb", -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
+            bg = "#f5f5f5",   -- Normal, floats, signs, TabLineFill background
+            c1 = "#f5f5f5",   -- dim inactive-window background
+            c2 = "#e8e8e8",   -- inactive terminal statusline and label foreground contrast
+            c3 = "#e8e8e8",   -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
+            c4 = "#cbcbcb",   -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
             c5 = "#7b8496",   -- line numbers, borders, fold column, separators, inlay hints
             c6 = "#7b8496",   -- secondary UI text, inactive statusline/tabline, popup menu text
             text = "#16181a", -- Normal text, identifiers, punctuation, active statusline/tabline text
@@ -371,6 +371,30 @@ local palette = {
             c18 = "#bdae93",  -- cursor-like surfaces and subdued rendered comments
         },
     },
+    boy = {
+        dark = {
+            bg = "#000000",   -- Normal, floats, signs, TabLineFill background
+            c1 = "#000000",   -- dim inactive-window background
+            c2 = "#1e2124",   -- inactive terminal statusline and label foreground contrast
+            c3 = "#1e2124",   -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
+            c4 = "#3c4048",   -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
+            c5 = "#7b8496",   -- line numbers, borders, fold column, separators, inlay hints
+            c6 = "#7b8496",   -- secondary UI text, inactive statusline/tabline, popup menu text
+            text = "#ffffff", -- Normal text, identifiers, punctuation, active statusline/tabline text
+            c7 = "#5ef1ff",   -- keywords, conditionals, repeats, strong prompts
+            c8 = "#f1ff5e",   -- warning/yellow diagnostics and terminal yellow
+            c9 = "#7b8496",   -- comments and folded text
+            c10 = "#5ea1ff",  -- strings, quickfix filenames, success/green diagnostics
+            c11 = "#ff4545",  -- errors, exceptions, SpellBad, search labels
+            c12 = "#5eff6c",  -- functions, methods, fields, visual selection, match highlights
+            c13 = "#ff5ea0",  -- types, imports, quickfix line/column numbers
+            c14 = "#bd5eff",  -- constants, booleans, numbers, labels, titles, directories
+            c15 = "#ff5ef1",  -- CurSearch background
+            c16 = "#ffbd5e",  -- special comments, messages, links, cyan/teal accents
+            c17 = "#16181a",  -- selected completion, picker, buffer, and tab backgrounds
+            c18 = "#3c4048",  -- cursor-like surfaces and subdued rendered comments
+        }
+    }
 }
 
 local function apply_overrides(colors)

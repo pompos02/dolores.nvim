@@ -28,3 +28,4 @@ Available schemes:
 - `dolores-thes`: high-contrast palette, switches with `vim.o.background`
 - `dolores-sotiria-bellou`: Gruvbox palette, switches with `vim.o.background`
 - `dolores-glykeria`: Gruvbox palette, switches with `vim.o.background`
+- `dolores-boy`: dark-only high-contrast palette
