@@ -34,7 +34,7 @@ local function set_highlights()
         ["@number"] = { link = "Number" },
         ["@parameter"] = { fg = palette.text },
         ["@preproc"] = { link = "PreProc" },
-        ["@punctuation"] = { fg = palette.text },
+        ["@punctuation"] = { fg = palette.operator },
         ["@regexp"] = { link = "String" },
         ["@repeat"] = { link = "Repeat" },
         ["@storageclass"] = { link = "StorageClass" },
@@ -206,7 +206,7 @@ local function set_highlights()
         LspReferenceWrite = { bold = styles.bold },
         Macro = { fg = palette.text },
         Number = { fg = palette.c14 },
-        Operator = { fg = palette.text },
+        Operator = { fg = palette.operator },
         PreCondit = { fg = palette.text },
         PreProc = { link = "PreCondit" },
         Repeat = { fg = palette.c7 },
@@ -371,7 +371,6 @@ local function set_highlights()
         ["@keyword.make"] = { link = "makeStatement" },
         ["@keyword.doxygen"] = { fg = palette.c10 },
 
-        ["@punctuation"] = { fg = palette.text },
         ["@punctuation.delimiter"] = { link = "@punctuation" },
         ["@punctuation.bracket"] = { link = "@punctuation" },
         ["@punctuation.special"] = { link = "@punctuation" },
@@ -1094,7 +1093,7 @@ local function set_highlights()
         BlinkCmpLabel = { fg = palette.text, bg = "NONE" },
         BlinkCmpLabelDeprecated = { fg = palette.c5, bg = "NONE", strikethrough = true },
         -- BlinkCmpLabelMatch = { fg = palette.c12, bg = "NONE", bold = styles.bold },
-        BlinkCmpLabelMatch = { fg = palette.c12, bg = "NONE" },
+        BlinkCmpLabelMatch = { fg = palette.c7, bg = "NONE" },
         -- BlinkCmpLabelMatchSelected = { fg = palette.c12, bg = "NONE", bold = styles.bold },
         BlinkCmpLabelMatchSelected = { fg = palette.c12, bg = "NONE" },
         BlinkCmpLabelDetail = { fg = palette.c6, bg = "NONE" },
@@ -1188,6 +1187,8 @@ local function set_highlights()
         DiffviewStatusDeleted = { fg = groups.git_delete },
         DiffviewStatusBroken = { fg = groups.git_delete },
         DiffviewStatusIgnored = { fg = groups.git_ignore },
+
+        Contextpp = { fg = palette.c9, bg = palette.c5, italic = styles.italic, blend = 20 },
     }
     local transparency_highlights = {
         DiagnosticVirtualTextError = { fg = groups.error },

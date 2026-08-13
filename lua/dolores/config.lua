@@ -1,6 +1,7 @@
 ---@alias PaletteColor
 ---| "bg"
 ---| "text"
+---| "operator"
 ---| "c1"
 ---| "c2"
 ---| "c3"
