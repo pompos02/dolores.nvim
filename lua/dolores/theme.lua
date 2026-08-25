@@ -32,7 +32,7 @@ local function set_highlights()
         ["@method"] = { fg = palette.c12 },
         ["@namespace"] = { link = "Include" },
         ["@number"] = { link = "Number" },
-        ["@parameter"] = { fg = palette.text },
+        ["@parameter"] = { fg = palette.text, italic = styles.italic },
         ["@preproc"] = { link = "PreProc" },
         ["@punctuation"] = { fg = palette.operator },
         ["@regexp"] = { link = "String" },
@@ -43,7 +43,7 @@ local function set_highlights()
         ["@text.danger"] = { fg = groups.error },
         ["@text.diff.add"] = { fg = groups.git_add, bg = groups.git_add, blend = 20 },
         ["@text.diff.delete"] = { fg = groups.git_delete, bg = groups.git_delete, blend = 20 },
-        ["@text.emphasis"] = {},
+        ["@text.emphasis"] = { italic = styles.italic },
         ["@text.environment"] = { link = "Macro" },
         ["@text.environment.name"] = { link = "Type" },
         ["@text.math"] = { link = "Special" },
@@ -184,7 +184,7 @@ local function set_highlights()
 
         Boolean = { fg = palette.c14 },
         Character = { link = "String" },
-        Comment = { fg = palette.c9 },
+        Comment = { fg = palette.c9, italic = styles.italic },
         Conditional = { fg = palette.c7 },
         Constant = { fg = palette.c14 },
         Debug = { fg = palette.c11 },
@@ -235,7 +235,7 @@ local function set_highlights()
         htmlH3 = { link = "markdownH3" },
         htmlH4 = { link = "markdownH4" },
         htmlH5 = { link = "markdownH5" },
-        htmlItalic = {},
+        htmlItalic = { italic = styles.italic },
         htmlLink = { link = "markdownUrl" },
         htmlTag = { fg = palette.text },
         htmlTagN = { fg = palette.text },
@@ -309,7 +309,7 @@ local function set_highlights()
         markdownUrl = { fg = groups.link, sp = groups.link, underline = true },
         markdownListMarker = { fg = palette.c7 },
 
-        mkdCode = { fg = palette.c14 },
+        mkdCode = { fg = palette.c14, italic = styles.italic },
         mkdCodeDelimiter = { fg = palette.c11 },
         mkdCodeEnd = { fg = palette.c14 },
         mkdCodeStart = { fg = palette.c14 },
@@ -322,8 +322,10 @@ local function set_highlights()
         mkdRule = { fg = palette.c6 },
         mkdURL = { link = "markdownUrl" },
 
-        ["@variable"] = { fg = palette.text },
-        ["@variable.builtin"] = { link = "@variable" },
+        ["@variable"] = { fg = palette.text, italic = styles.italic },
+        ["@variable.builtin"] = { fg = palette.text, italic = styles.italic, bold = styles.bold },
+        ["@variable.parameter"] = { fg = palette.text, italic = styles.italic },
+        ["@variable.parameter.builtin"] = { fg = palette.text, italic = styles.italic, bold = styles.bold },
 
         ["@module"] = { fg = palette.text },
         ["@constant"] = { link = "Constant" },
@@ -348,6 +350,7 @@ local function set_highlights()
         ["@type.builtin"] = { link = "Type" },
 
         ["@attribute"] = { fg = palette.text },
+        ["@property"] = { fg = palette.text, italic = styles.italic },
 
         ["@function"] = { link = "Function" },
         -- ["@function.call"] = { link = "@text" },
@@ -396,7 +399,7 @@ local function set_highlights()
         ["@variable.builtin.make"] = { link = "makeIdent" },
 
         ["@markup.strong"] = { bold = styles.bold },
-        ["@markup.italic"] = {},
+        ["@markup.italic"] = { italic = styles.italic },
         ["@markup.strikethrough"] = { strikethrough = true },
         ["@markup.underline"] = { underline = true },
 
@@ -656,18 +659,18 @@ local function set_highlights()
         CmpItemKindSnippet = { link = "String" },
         CmpItemKindVariable = { link = "Identifier" },
 
-        NeogitChangeAdded = { fg = groups.git_add, bold = styles.bold },
-        NeogitChangeBothModified = { fg = groups.git_change, bold = styles.bold },
-        NeogitChangeCopied = { fg = groups.git_untracked, bold = styles.bold },
-        NeogitChangeDeleted = { fg = groups.git_delete, bold = styles.bold },
-        NeogitChangeModified = { fg = groups.git_change, bold = styles.bold },
-        NeogitChangeNewFile = { fg = groups.git_stage, bold = styles.bold },
-        NeogitChangeRenamed = { fg = groups.git_rename, bold = styles.bold },
-        NeogitChangeUpdated = { fg = groups.git_change, bold = styles.bold },
+        NeogitChangeAdded = { fg = groups.git_add, bold = styles.bold, italic = styles.italic },
+        NeogitChangeBothModified = { fg = groups.git_change, bold = styles.bold, italic = styles.italic },
+        NeogitChangeCopied = { fg = groups.git_untracked, bold = styles.bold, italic = styles.italic },
+        NeogitChangeDeleted = { fg = groups.git_delete, bold = styles.bold, italic = styles.italic },
+        NeogitChangeModified = { fg = groups.git_change, bold = styles.bold, italic = styles.italic },
+        NeogitChangeNewFile = { fg = groups.git_stage, bold = styles.bold, italic = styles.italic },
+        NeogitChangeRenamed = { fg = groups.git_rename, bold = styles.bold, italic = styles.italic },
+        NeogitChangeUpdated = { fg = groups.git_change, bold = styles.bold, italic = styles.italic },
         NeogitDiffAddHighlight = { link = "DiffAdd" },
         NeogitDiffContextHighlight = { bg = palette.bg },
         NeogitDiffDeleteHighlight = { link = "DiffDelete" },
-        NeogitFilePath = { fg = palette.c14 },
+        NeogitFilePath = { fg = palette.c14, italic = styles.italic },
         NeogitHunkHeader = { bg = palette.bg },
         NeogitHunkHeaderHighlight = { bg = palette.bg },
 
@@ -989,7 +992,7 @@ local function set_highlights()
         AlphaHeader = { fg = palette.c12 },
         AlphaShortcut = { fg = palette.c11 },
 
-        CopilotSuggestion = { fg = palette.c5 },
+        CopilotSuggestion = { fg = palette.c5, italic = styles.italic },
 
         TreesitterContext = { fg = palette.text, bg = palette.c4 },
         TreesitterContextLineNumber = { link = "LineNr" },
