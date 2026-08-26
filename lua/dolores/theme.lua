@@ -1123,7 +1123,7 @@ local function set_highlights()
         BlinkCmpLabel = { fg = palette.text, bg = "NONE" },
         BlinkCmpLabelDeprecated = { fg = palette.c5, bg = "NONE", strikethrough = true },
         -- BlinkCmpLabelMatch = { fg = palette.c12, bg = "NONE", bold = styles.bold },
-        BlinkCmpLabelMatch = { fg = palette.c7, bg = "NONE" },
+        BlinkCmpLabelMatch = { fg = palette.c10, bg = "NONE" },
         -- BlinkCmpLabelMatchSelected = { fg = palette.c12, bg = "NONE", bold = styles.bold },
         BlinkCmpLabelMatchSelected = { fg = palette.c12, bg = "NONE" },
         BlinkCmpLabelDetail = { fg = palette.c6, bg = "NONE" },
