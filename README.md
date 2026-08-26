@@ -93,6 +93,6 @@ require("dolores").setup({
 vim.cmd.colorscheme("dolores")
 ```
 
-Colors accept palette keys (`bg`, `text`, `operator`, and `c1` through `c18`), hex values, named colors, or `NONE`. Highlight overrides are merged by default; use `inherit = false` to replace a group.
+Colors accept palette keys (`bg`, `text`, `operator`, `visual`, and `c1` through `c18`), hex values, named colors, or `NONE`. Highlight overrides are merged by default; use `inherit = false` to replace a group.
 
 When `enable.migrations` is `true`, these deprecated options are also recognized: `bold_vert_split`, `disable_background`, `disable_float_background`, `dim_nc_background`, `disable_bold`, `disable_bolds`, `disable_italic`, `disable_italics`, `groups.background`, `groups.comment`, `groups.punctuation`, and `groups.headings`. Prefer the current options shown above.

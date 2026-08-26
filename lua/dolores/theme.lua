@@ -169,7 +169,7 @@ local function set_highlights()
         TabLineSel = { fg = palette.text, bg = palette.c4, bold = styles.bold },
         Title = { fg = palette.c14, bold = styles.bold },
         VertSplit = { fg = groups.border },
-        Visual = { bg = palette.c12, bold = styles.bold, blend = 30 },
+        Visual = { bg = palette.visual, bold = styles.bold, blend = 30 },
         YankHighlight = { fg = "NONE", bg = palette.c14, blend = 10 },
         WarningMsg = { fg = groups.warn, bold = styles.bold },
         WildMenu = { link = "IncSearch" },
