@@ -411,7 +411,32 @@ local palette = {
             c17 = "#16181a",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#3c4048",  -- cursor-like surfaces and subdued rendered comments
         }
-    }
+    },
+    vesper = {
+        dark = {
+            bg = "#101010",   -- Normal, floats, signs, TabLineFill background
+            c1 = "#101010",   -- dim inactive-window background
+            c2 = "#161616",   -- inactive terminal statusline and label foreground contrast
+            c3 = "#1C1C1C",   -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
+            c4 = "#282828",   -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
+            c5 = "#505050",   -- line numbers, borders, fold column, separators, inlay hints
+            c6 = "#A0A0A0",   -- secondary UI text, inactive statusline/tabline, popup menu text
+            text = "#FFFFFF",     -- Normal text, identifiers, punctuation, active statusline/tabline text
+            operator = "#A0A0A0", -- operators
+            c7 = "#cccccc",   -- keywords, conditionals, repeats, strong prompts
+            c8 = "#FFC799",   -- warning/yellow diagnostics and terminal yellow
+            c9 = "#fcbcd4",   -- comments and folded text; #8b8b8b at Vesper's 58% opacity
+            c10 = "#99FFE4",  -- strings, quickfix filenames, success/green diagnostics
+            c11 = "#FF8080",  -- errors, exceptions, SpellBad, search labels
+            c12 = "#FFC799",  -- functions, methods, fields, visual selection, match highlights
+            c13 = "#FFC799",  -- types, imports, quickfix line/column numbers
+            c14 = "#FFC799",  -- constants, booleans, numbers, labels, titles, directories
+            c15 = "#fcbcd4",  -- CurSearch background
+            c16 = "#FFC799",  -- special comments, messages, links, cyan/teal accents
+            c17 = "#161616",  -- selected completion, picker, buffer, and tab backgrounds
+            c18 = "#343434",  -- cursor-like surfaces and subdued rendered comments
+        },
+    },
 }
 
 local function apply_overrides(colors)

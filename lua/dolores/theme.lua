@@ -5,6 +5,33 @@ local function set_highlights()
     local utilities = require("dolores.utilities")
     local palette = require("dolores.palette")
     local styles = config.options.styles
+    local is_vesper = vim.g.colors_name == "dolores-vesper"
+
+    local variant_highlights = {}
+    if is_vesper then
+        variant_highlights = {
+            Define = { fg = palette.c7 },
+            Include = { fg = palette.c7 },
+            Statement = { fg = palette.c7, bold = styles.bold },
+            StorageClass = { fg = palette.c7 },
+            Tag = { fg = palette.c12 },
+
+            htmlArg = { fg = palette.c12 },
+            htmlEndTag = { fg = palette.c12 },
+            htmlTag = { fg = palette.c7 },
+            htmlTagN = { fg = palette.c12 },
+            htmlTagName = { fg = palette.c12 },
+
+            ["@attribute"] = { fg = palette.c7 },
+            ["@keyword.exception"] = { fg = palette.c7 },
+            ["@keyword.import"] = { fg = palette.c7 },
+            ["@keyword.include"] = { fg = palette.c7 },
+            ["@string.escape"] = { fg = palette.c7 },
+            ["@string.regexp"] = { fg = palette.c7 },
+            ["@tag.attribute"] = { fg = palette.c7 },
+            ["@tag.delimiter"] = { fg = palette.c7 },
+        }
+    end
 
     local groups = {}
     for group, color in pairs(config.options.groups) do
@@ -1249,6 +1276,9 @@ local function set_highlights()
     for group, highlight in pairs(default_highlights) do
         highlights[group] = highlight
     end
+    for group, highlight in pairs(variant_highlights) do
+        highlights[group] = highlight
+    end
     if styles.transparency then
         for group, highlight in pairs(transparency_highlights) do
             highlights[group] = highlight
@@ -1313,20 +1343,20 @@ local function set_highlights()
     end
 
     if config.options.enable.terminal then
-        vim.g.terminal_color_0 = palette.c4
-        vim.g.terminal_color_8 = palette.c6
+        vim.g.terminal_color_0 = is_vesper and palette.bg or palette.c4
+        vim.g.terminal_color_8 = is_vesper and palette.c5 or palette.c6
         vim.g.terminal_color_1 = palette.c11
         vim.g.terminal_color_9 = palette.c11
-        vim.g.terminal_color_2 = palette.c12
-        vim.g.terminal_color_10 = palette.c12
+        vim.g.terminal_color_2 = is_vesper and palette.c10 or palette.c12
+        vim.g.terminal_color_10 = is_vesper and palette.c10 or palette.c12
         vim.g.terminal_color_3 = palette.c8
         vim.g.terminal_color_11 = palette.c8
-        vim.g.terminal_color_4 = palette.c14
-        vim.g.terminal_color_12 = palette.c14
+        vim.g.terminal_color_4 = is_vesper and palette.c10 or palette.c14
+        vim.g.terminal_color_12 = is_vesper and palette.c10 or palette.c14
         vim.g.terminal_color_5 = palette.c16
         vim.g.terminal_color_13 = palette.c16
-        vim.g.terminal_color_6 = palette.c11
-        vim.g.terminal_color_14 = palette.c11
+        vim.g.terminal_color_6 = is_vesper and palette.c6 or palette.c11
+        vim.g.terminal_color_14 = is_vesper and palette.c6 or palette.c11
         vim.g.terminal_color_7 = palette.text
         vim.g.terminal_color_15 = palette.text
 
