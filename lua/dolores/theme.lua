@@ -5,10 +5,10 @@ local function set_highlights()
     local utilities = require("dolores.utilities")
     local palette = require("dolores.palette")
     local styles = config.options.styles
-    local is_vesper = vim.g.colors_name == "dolores-vesper"
+    local is_edelvais = vim.g.colors_name == "dolores-edelvais"
 
     local variant_highlights = {}
-    if is_vesper then
+    if is_edelvais then
         variant_highlights = {
             Define = { fg = palette.c7 },
             Include = { fg = palette.c7 },
@@ -1343,20 +1343,20 @@ local function set_highlights()
     end
 
     if config.options.enable.terminal then
-        vim.g.terminal_color_0 = is_vesper and palette.bg or palette.c4
-        vim.g.terminal_color_8 = is_vesper and palette.c5 or palette.c6
+        vim.g.terminal_color_0 = is_edelvais and palette.bg or palette.c4
+        vim.g.terminal_color_8 = is_edelvais and palette.c5 or palette.c6
         vim.g.terminal_color_1 = palette.c11
         vim.g.terminal_color_9 = palette.c11
-        vim.g.terminal_color_2 = is_vesper and palette.c10 or palette.c12
-        vim.g.terminal_color_10 = is_vesper and palette.c10 or palette.c12
+        vim.g.terminal_color_2 = is_edelvais and palette.c10 or palette.c12
+        vim.g.terminal_color_10 = is_edelvais and palette.c10 or palette.c12
         vim.g.terminal_color_3 = palette.c8
         vim.g.terminal_color_11 = palette.c8
-        vim.g.terminal_color_4 = is_vesper and palette.c10 or palette.c14
-        vim.g.terminal_color_12 = is_vesper and palette.c10 or palette.c14
+        vim.g.terminal_color_4 = is_edelvais and palette.c10 or palette.c14
+        vim.g.terminal_color_12 = is_edelvais and palette.c10 or palette.c14
         vim.g.terminal_color_5 = palette.c16
         vim.g.terminal_color_13 = palette.c16
-        vim.g.terminal_color_6 = is_vesper and palette.c6 or palette.c11
-        vim.g.terminal_color_14 = is_vesper and palette.c6 or palette.c11
+        vim.g.terminal_color_6 = is_edelvais and palette.c6 or palette.c11
+        vim.g.terminal_color_14 = is_edelvais and palette.c6 or palette.c11
         vim.g.terminal_color_7 = palette.text
         vim.g.terminal_color_15 = palette.text
 

@@ -1,7 +1,7 @@
 local M = {}
 
 function M.colorscheme()
-	require("dolores.theme").apply("dolores-vesper")
+	require("dolores.theme").apply("dolores-drapetis")
 end
 
 return M

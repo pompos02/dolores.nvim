@@ -387,7 +387,7 @@ local palette = {
             c18 = "#bdae93",  -- cursor-like surfaces and subdued rendered comments
         },
     },
-    boy = {
+    drapetis = {
         dark = {
             bg = "#1c1c1c",   -- Normal, floats, signs, TabLineFill background
             c1 = "#1e2021",   -- dim inactive-window background
@@ -412,7 +412,7 @@ local palette = {
             c18 = "#3c4048",  -- cursor-like surfaces and subdued rendered comments
         }
     },
-    vesper = {
+    edelvais = {
         dark = {
             bg = "#101010",   -- Normal, floats, signs, TabLineFill background
             c1 = "#101010",   -- dim inactive-window background
@@ -425,7 +425,7 @@ local palette = {
             operator = "#A0A0A0", -- operators
             c7 = "#cccccc",   -- keywords, conditionals, repeats, strong prompts
             c8 = "#FFC799",   -- warning/yellow diagnostics and terminal yellow
-            c9 = "#fcbcd4",   -- comments and folded text; #8b8b8b at Vesper's 58% opacity
+            c9 = "#fcbcd4",   -- comments and folded text
             c10 = "#99FFE4",  -- strings, quickfix filenames, success/green diagnostics
             c11 = "#FF8080",  -- errors, exceptions, SpellBad, search labels
             c12 = "#FFC799",  -- functions, methods, fields, visual selection, match highlights
