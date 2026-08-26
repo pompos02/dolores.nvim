@@ -1173,7 +1173,7 @@ local function set_highlights()
         SnacksIndent = { fg = palette.c4 },
         SnacksIndentChunk = { fg = palette.c4 },
         SnacksIndentBlank = { fg = palette.c4 },
-        SnacksIndentScope = { fg = palette.c14 },
+        SnacksIndentScope = { fg = palette.c7 },
 
         SnacksPicker = { fg = palette.text, bg = palette.bg },
         SnacksPickerBorder = { fg = palette.c5, bg = palette.bg },
