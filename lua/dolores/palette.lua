@@ -448,11 +448,35 @@ local palette = {
             c11 = "#FF8080",  -- errors, exceptions, SpellBad, search labels
             c12 = "#FFC799",  -- functions, methods, fields, match highlights
             c13 = "#FFC799",  -- types, imports, quickfix line/column numbers
-            c14 = "#FFC799",  -- constants, booleans, numbers, labels, titles, directories
+            c14 = "#99FFE4",  -- constants, booleans, numbers, labels, titles, directories
             c15 = "#fcbcd4",  -- CurSearch background
             c16 = "#FFC799",  -- special comments, messages, links, cyan/teal accents
             c17 = "#161616",  -- selected completion, picker, buffer, and tab backgrounds
             c18 = "#343434",  -- cursor-like surfaces and subdued rendered comments
+        },
+        light = {
+            bg = "#FAFAF8",   -- Normal, floats, signs, TabLineFill background
+            c1 = "#F4F4F1",   -- dim inactive-window background
+            c2 = "#F0F0ED",   -- inactive terminal statusline and label foreground contrast
+            c3 = "#EAEAE6",   -- ColorColumn, CursorLine, CursorColumn, StatusLine, TabLine, popup menu
+            c4 = "#DEDEDA",   -- selected tab, terminal statusline, QuickFixLine, NonText, indent guides
+            c5 = "#9A9A94",   -- line numbers, borders, fold column, separators, inlay hints
+            c6 = "#62625F",   -- secondary UI text, inactive statusline/tabline, popup menu text
+            text = "#000000",     -- Normal text, identifiers, punctuation, active statusline/tabline text
+            operator = "#181816", -- operators
+            visual = "#62625F",   -- visual selection
+            c7 = "#181816",   -- keywords, conditionals, repeats, strong prompts
+            c8 = "#A64F13",   -- warning/yellow diagnostics and terminal yellow
+            c9 = "#A4496B",   -- comments and folded text
+            c10 = "#007A65",  -- strings, quickfix filenames, success/green diagnostics
+            c11 = "#C23B3B",  -- errors, exceptions, SpellBad, search labels
+            c12 = "#A64F13",  -- functions, methods, fields, match highlights
+            c13 = "#A64F13",  -- types, imports, quickfix line/column numbers
+            c14 = "#A64F13",  -- constants, booleans, numbers, labels, titles, directories
+            c15 = "#A4496B",  -- CurSearch background
+            c16 = "#A64F13",  -- special comments, messages, links, cyan/teal accents
+            c17 = "#F0F0ED",  -- selected completion, picker, buffer, and tab backgrounds
+            c18 = "#D2D2CD",  -- cursor-like surfaces and subdued rendered comments
         },
     },
 }

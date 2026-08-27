@@ -29,7 +29,7 @@ Available schemes:
 - `dolores-sotiria-bellou`: Gruvbox palette, switches with `vim.o.background`
 - `dolores-glykeria`: Gruvbox palette, switches with `vim.o.background`
 - `dolores-drapetis`: dark-only high-contrast palette
-- `dolores-edelvais`: dark-only Edelvais palette
+- `dolores-edelvais`: Vesper-inspired palette, switches with `vim.o.background`
 
 ## Options
 
