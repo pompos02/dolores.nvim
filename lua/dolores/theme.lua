@@ -124,7 +124,7 @@ local function set_highlights()
         IncSearch = { fg = palette.bg, bg = palette.c8 },
         Search = { fg = palette.bg, bg = palette.c8 },
         LineNr = { fg = palette.c5, bg = palette.bg },
-        MatchParen = { fg = palette.c11, bg = palette.c8, bold = true },
+        MatchParen = { fg = palette.c8, bg = palette.c12, bold = true, blend = 25 },
         ModeMsg = { fg = palette.c6 },
         MoreMsg = { fg = palette.c16 },
         NonText = { fg = palette.c4 },
