@@ -349,10 +349,10 @@ local function set_highlights()
         mkdRule = { fg = palette.c6 },
         mkdURL = { link = "markdownUrl" },
 
-        ["@variable"] = { fg = palette.text},
+        ["@variable"] = { fg = palette.text },
         ["@variable.builtin"] = { fg = palette.text, bold = styles.bold },
-        ["@variable.parameter"] = { link = "@parameter"},
-        ["@variable.parameter.builtin"] = { link = "@variable.builtin"},
+        ["@variable.parameter"] = { link = "@parameter" },
+        ["@variable.parameter.builtin"] = { link = "@variable.builtin" },
 
         ["@module"] = { fg = palette.text },
         ["@constant"] = { link = "Constant" },
@@ -937,10 +937,10 @@ local function set_highlights()
         MiniFilesTitle = { link = "FloatTitle" },
         MiniFilesTitleFocused = { fg = palette.c11, bg = palette.bg, bold = styles.bold },
 
-        MiniHipatternsFixme = { fg = palette.c2, bg = groups.error, bold = styles.bold },
-        MiniHipatternsHack = { fg = palette.c2, bg = groups.warn, bold = styles.bold },
-        MiniHipatternsNote = { fg = palette.c2, bg = groups.info, bold = styles.bold },
-        MiniHipatternsTodo = { fg = palette.c2, bg = groups.hint, bold = styles.bold },
+        MiniHipatternsFixme = { fg = groups.error,  bold = true, underline = true },
+        MiniHipatternsHack  = { fg = groups.warn,   bold = true, underline = true },
+        MiniHipatternsNote  = { fg = groups.info,   bold = true, underline = true },
+        MiniHipatternsTodo  = { fg = groups.hint,   bold = true, underline = true },
 
         MiniIconsAzure = { fg = palette.c14 },
         MiniIconsBlue = { fg = palette.c12 },
